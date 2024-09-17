@@ -1,3 +1,31 @@
+* {
+    font-family: "Nirmala UI";
+}
+
 .titles {
-    color: red;
+    font-size: 46px;
+    text-align: center;
+}
+
+#mainInputContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.mainInputs {
+    border-radius: 7px;
+    border-color: black;
+    border-style: solid;
+}
+
+#mainTextInput {
+    width: 600px;
+    height: 25px;
+}
+
+#mainButtonInput {
+    font-size: 15px;
+    width: 65px;
+    margin-left: 5px;
+    text-align: center;
 }
