@@ -6,5 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yew = {version = "0.21.0", features = ["csr"]}
+yew = { version = "0.21.0", features = ["csr"] }
+gloo-net = { version = "0.6.0", features = ["websocket"] }
 gloo-console = "0.3.0"
+wasm-bindgen-futures = "0.4.43"

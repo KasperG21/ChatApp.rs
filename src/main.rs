@@ -1,9 +1,12 @@
-use gloo_console::log;
+mod net;
+
 use yew::prelude::*;
 
 struct App {}
 
-enum Msg {}
+enum Msg {
+    SendMessage,
+}
 
 impl Component for App {
     type Message = Msg;
@@ -23,7 +26,9 @@ impl Component for App {
                 <h1 class={classes!("titles")}>{"ChatApp.rs"}</h1>
                 <div id={"mainInputContainer"}>
                     <input id={"mainTextInput"} class={classes!("mainInputs")} />
-                    <button id={"mainButtonInput"} class={classes!("mainInputs")}>{"SEND"}</button>
+                    <button id={"mainButtonInput"} class={classes!("mainInputs")}>
+                        <img width=32 height=30 src={"Static/send-message.png"} />
+                    </button>
                 </div>
             </div>
         }

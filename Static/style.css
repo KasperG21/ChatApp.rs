@@ -1,5 +1,5 @@
 * {
-    font-family: "Nirmala UI";
+    font-family: "Nirmala UI", serif;
 }
 
 .titles {
@@ -10,6 +10,7 @@
 #mainInputContainer {
     display: flex;
     justify-content: center;
+    margin-top: 37.5%;
 }
 
 .mainInputs {
@@ -19,13 +20,12 @@
 }
 
 #mainTextInput {
-    width: 600px;
-    height: 25px;
+    width: 65%;
+    height: 32px;
 }
 
 #mainButtonInput {
-    font-size: 15px;
-    width: 65px;
+    width: 50px;
     margin-left: 5px;
     text-align: center;
 }
